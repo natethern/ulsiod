@@ -1,0 +1,6 @@
+SIOD was written by George J. Carrette.
+
+It was converted to ULSIOD by John C. G. Sturdy.  This conversion took
+the form of renaming lots of functions to have the prefix `siod_' to
+avoid a name clash when using in a heady mix of language interpreters.
+So all the real credit still goes to GJC.

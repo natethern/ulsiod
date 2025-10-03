@@ -1,0 +1,4 @@
+This is ULSIOD, the University of Limerick version of George
+J. Carrette's SIOD program, a small implementation of Scheme.  It was
+converted from the original SIOD in 2008 or 2009 by John C. G. Sturdy,
+who then put it under gnutools in 2009.

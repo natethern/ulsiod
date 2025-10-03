@@ -1,0 +1,47 @@
+2010-01-11  John C G Sturdy  <john.sturdy@ul.ie>
+
+	* src/sliba.c (siod_lsinh): Add hyperbolic trig functions.
+
+2010-01-10  John C G Sturdy  <john.sturdy@ul.ie>
+
+	* src/siodp.h: Put siod_gc_status_flag here (was previously
+	invisible outside slib.c).
+
+2010-01-06  John C G Sturdy  <john.sturdy@ul.ie>
+
+	* src/slib.c (void): Use the makefile variable for the name of the
+	scheme library directory.
+
+	* Makefile.am (AM_CPPFLAGS): Define a variable for the scheme
+	library directory.
+
+2010-01-03  John C G Sturdy  <john.sturdy@ul.ie>
+
+	* src/slib.c (siod_leval): Added printing of what is being
+	evaluated, at verbosity 6 and up.
+	(siod_init_subrs_1): rename siod_nsiod_reverse to siod_nreverse,
+	which is what it should have been all along.
+
+2009-10-13  John C G Sturdy  <john.sturdy@ul.ie>
+
+	* src/slib.c (siod_leval_set): Added `set' function.
+
+	* Makefile.am (libulsiod_la_LIBADD): Remove -lulsiod from the
+	libulsiod_la_LIBADD as this was stopping it making on builds not
+	from clean.
+
+2009-10-12  John C G Sturdy  <john.sturdy@ul.ie>
+
+	* src/slib.c (siod_init_subrs_1): Added garbage_collections count,
+	and a code to return it: (gc-info 5)
+
+2009-09-29  John C G Sturdy  <john.sturdy@ul.ie>
+
+	* www/ulsiod.html: Various updates and tidying of the
+	documentation.
+
+2009-08-25  John C G Sturdy  <john.sturdy@ul.ie>
+
+	* ulsiod2/Makefile.am: Put ULSIOD under gnutools.
+
+

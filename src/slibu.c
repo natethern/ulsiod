@@ -2007,7 +2007,7 @@ static int siod_htqs_arg(char *value)
      (strcmp(value,"siod_repl") == 0))
    return(siod_repl_driver(1,1,NULL));
  else if (!strchr(value,'('))
-   {strcpy(tmpbuff,"(siod_require \"");
+   {strcpy(tmpbuff,"(require \"");
     for(p1 = &tmpbuff[strlen(tmpbuff)],p2 = value;*p2;++p2)
 	{if (strchr("\\\"",*p2)) *p1++ = '\\';
 	 *p1++ = *p2;}
